@@ -14,6 +14,7 @@
       <TodoList />
     {/if}
   </div>
+  <p class="note">Double-click to edit a todo</p>
 </main>
 
 <style lang="scss">
@@ -38,5 +39,14 @@
     box-shadow:
       0 2px 4px 0 rgba(0, 0, 0, 0.2),
       0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .note {
+    line-height: 1;
+    display: block;
+    color: #bfbfbf;
+    font-size: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 65px auto 0;
   }
 </style>
